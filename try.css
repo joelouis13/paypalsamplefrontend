@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    background: #fff;
+    
+}
+
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+
+.logo{
+    color: blue;
+    font-family: arial;
+    float: left;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.menu{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+ul li{
+    list-style: none;
+    margin-top: 40px;
+    padding-left: 45px;
+    float: left;
+}
+
+ul li a{
+    text-decoration: none;
+    color: blue;
+    font-family: arial;
+    font-weight: bold;
+}
+
+
+.links{
+    width: 330px;
+    padding-left: 250px;
+    float: left;
+    margin-top: 27px;
+}
+
+.links button{
+    margin-left: 40px;
+}
+
+.links .help{
+    text-decoration: none;
+    margin-left: 20pxpx;
+    font-family: arial;
+    font-weight: bold;
+
+}
+
+.links .lgn{
+    width: 100px;
+    height: 40px;
+    background: #fff;
+    border: 1.5px solid blue;
+    border-radius: 15px;
+}
+
+.links .lgn a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links .snp{
+    width: 100px;
+    height: 40px;
+    background: blue;
+    border-radius: 15px;
+    border: none;
+}
+
+.links .snp a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.content{
+    width: 100%;
+    height: 400px;
+    background: blue;
+    position: relative;
+    padding: 40px;
+}
+
+.content h2{
+    color: #fff;
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    padding-bottom: 30px;
+    letter-spacing: 1.2px;
+}
+
+.content .par{
+    color: #fff;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    padding-bottom: 20px;
+
+
+}
+
+.content .cn{
+    width: 300px;
+    height: 40px;
+    background: rgb(45, 45, 212);
+    border: none;
+    border-radius: 15px;
+}
+
+.content .cn a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+
+.wb{
+    width: 400px;
+    height: 160px;
+    margin-left: 800px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: -260px;
+    margin-bottom: 15px;
+}
+
+.wb h2{
+    color: blue;
+    text-align: center;
+}
+
+ .wb .btn{
+     width: 250px;
+     height: 40px;
+     background: blue;
+     border: none;
+     border-radius: 10px;
+     margin-left: 77px;
+     margin-top: -20px;
+     margin-bottom: 15px;
+    
+ }
+
+ .wb .btn a{
+     color: #fff;
+     text-decoration: none;
+     font-size: 15px;
+     font-weight: bold;
+ }
+
+
+ .wb p{
+     color: blue;
+     text-align: center;
+     
+ }
+
+ .wb a{
+     text-decoration: none;
+ }
+
+ .acc {
+     margin-left: 900px;
+     color: #fff;
+     font-family: arial;
+
+ }
+
+ .acc a{
+     color: #fff;
+     text-decoration: none;
+     font-family: arial;
+     padding-left: 80px;
+     font-weight: bold;
+ }
